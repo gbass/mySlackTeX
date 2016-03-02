@@ -14,5 +14,4 @@ $tex = str_replace('+', '%20', $tex3);
 $data = array('response_type' => 'in_channel', 'text' => $tex);
 //Spit out the JSON response
 echo json_encode($data);
-console.log($data);
 ?>
